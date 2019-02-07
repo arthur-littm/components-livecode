@@ -1,0 +1,79 @@
+/* TODO */
+.fancy-card {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.top-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-box-image {
+  height: 200px;
+  width: 50%;
+  background-size: cover;
+}
+
+.top-box-info {
+  flex-grow: 1;
+  padding: 16px;
+}
+
+.top-box-info i {
+  color: #FDB434;
+}
+
+.btn-price {
+  text-decoration: none;
+  background-color: #3DBF59;
+  font-size: 12px;
+  padding: 8px;
+  color: white;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.middle-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bottom-box img {
+  height: 100px;
+  flex-grow: 1;
+  margin: 8px;
+  object-fit: cover;
+}
+
+.bottom-box img:first-child {
+  margin-left: 0;
+}
+
+.bottom-box img:last-child {
+  margin-right: 0;
+}
+
+.bottom-box {
+  display: flex;
+}
+
+
+/*.fancy-card img {
+  border-radius: 40px;
+}
+*/
+
+
+
+
+
+
+
+
+
